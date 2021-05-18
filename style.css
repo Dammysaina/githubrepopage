@@ -13,7 +13,7 @@ body {
     color: #f0f6fc; ;
 }
 .githubLogo img {
-    /* background-color: #f0f6fc; */
+    background-color: #f0f6fc;
     border-radius: 50%;
-    width: 50px;
+    width: 0px;
 }
