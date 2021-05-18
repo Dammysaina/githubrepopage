@@ -1,0 +1,19 @@
+body {
+    background-color:#0d1117 ;
+}
+.header {
+    /* background-color: #161b22; */
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    /* color: #f0f6fc; */
+    /* position: relative; */
+}
+.header a {
+    color: #f0f6fc; ;
+}
+.githubLogo img {
+    /* background-color: #f0f6fc; */
+    border-radius: 50%;
+    width: 50px;
+}
