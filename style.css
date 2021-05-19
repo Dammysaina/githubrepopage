@@ -3,15 +3,15 @@ body {
     margin: auto;
     /* padding: 0 5rem ; */
 }
-.githubBody {
-    padding: 0 5rem;
-}
+
 .headerNav {
     display: flex;
     justify-content: space-between;
     background-color: #161b22;
-    padding: 16px;
+    padding: 1rem 2rem;
     line-height: 1.5;
+    height: 30px;
+    align-items: center;
 }
 .headerLeft {
     display: flex;
@@ -23,11 +23,17 @@ body {
 }
 .headerLogo input {
     background-color: #0d1117;
-    border: 1px solid gray;
+    border: 1px solid #21262d;
     width: 18rem;
     height: 1.6rem;
-    border-radius: 5px;
-    margin-left: 1rem;
+    border-radius: 0.3rem;
+   
+}
+.headerLogo input::placeholder {
+    padding-left: 0.9rem;
+    color:#d8d9da;
+    /* font-size: 0.6rem; */
+    font-weight: 400;
 }
 .slashKey {
     position: relative;
@@ -38,21 +44,43 @@ body {
     color: #f0f6fc; 
     text-decoration: none;
     font-size: 14px;
+    padding-right: 0.7rem;
+    font-weight: 600;
 }
 .githubLogo img {
     background-color: #f0f6fc;
     border-radius: 50%;
     width: 30px;
 }
-.fa-bell {
-    color: white;
+.headerRight img {
+    width: 1.1rem;
 }
-.notificationBell img {
-    width: 20px;
-    color: white;
+.headerLink a , .headerRight a {
+    position: relative;
+    top: 0.3rem; 
+}
+.profileImage img{
+    border-radius: 50%;
 }
 .headerTwo {
     border-bottom: 1px solid #30363d;
-    padding-left: 20rem;
-    padding: 2rem 0;
+    padding: 2.2rem 2rem 0.8rem 23rem;
+}
+.headerTwo a {
+    color: #8b949e;
+    padding: 0.5rem 1rem;
+}
+.headerTwo a:not(.browser-default):focus {
+    border-bottom: 1px solid #f9826c !important;
+    -webkit-box-shadow: 0 1px 0 0 #f9826c !important;
+    box-shadow: 0 1px 0 0 #f9826c !important;
+    padding-bottom: 0.7rem
+}
+
+
+/* .headerTwo a:hover {
+    border-bottom: #f9826c;;
+} */
+.headerTwo img {
+    width: 1.2rem;
 }
