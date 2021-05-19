@@ -1,17 +1,17 @@
 body {
     background-color:#0d1117 ;
-    /* padding: 0 10px ; */
+    margin: auto;
+    /* padding: 0 5rem ; */
 }
-.header {
-    background-color: #161b22;
-    padding: 16px;
-    line-height: 1.5;
-    /* color: #f0f6fc; */
-    /* position: relative; */
+.githubBody {
+    padding: 0 5rem;
 }
 .headerNav {
     display: flex;
     justify-content: space-between;
+    background-color: #161b22;
+    padding: 16px;
+    line-height: 1.5;
 }
 .headerLeft {
     display: flex;
@@ -27,12 +27,12 @@ body {
     width: 18rem;
     height: 1.6rem;
     border-radius: 5px;
-    margin: 0 2rem 0 1rem;
+    margin-left: 1rem;
 }
 .slashKey {
     position: relative;
-    left: 17.5rem;
-    top: -1.55rem;
+    right: 2rem;
+    top: 0.3rem;
 }
 .header a {
     color: #f0f6fc; 
@@ -42,7 +42,7 @@ body {
 .githubLogo img {
     background-color: #f0f6fc;
     border-radius: 50%;
-    width: 40px;
+    width: 30px;
 }
 .fa-bell {
     color: white;
@@ -50,4 +50,9 @@ body {
 .notificationBell img {
     width: 20px;
     color: white;
+}
+.headerTwo {
+    border-bottom: 1px solid #30363d;
+    padding-left: 20rem;
+    padding: 2rem 0;
 }
