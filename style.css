@@ -175,3 +175,6 @@ input[type=text]:focus {
     color:#8b949e;
     font-weight: 400;
 }
+.findRepositories div {
+    border-bottom: 1px solid #30363d;
+}
