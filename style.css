@@ -24,14 +24,18 @@ body {
     display: flex;
     /* justify-content: space-between; */
 }
-.headerLogo input {
+input {
     background-color: #0d1117;
     border: 1px solid #21262d;
     width: 18rem;
     height: 1.6rem;
     border-radius: 0.3rem;
-   
+    outline: none;
+    padding: 1rem 0;
 }
+input[type=text]:focus {
+    border: 1px solid rgb(39, 72, 218);
+  }
 .headerLogo input::placeholder {
     padding-left: 0.9rem;
     color:#d8d9da;
@@ -62,13 +66,22 @@ body {
     position: relative;
     top: 0.3rem; 
 }
+.notificationBell {
+    position: relative;
+    right: -1.3rem;
+}
+.unreadNotification {
+    position:relative;
+    top: -0.4rem;
+    right: 1.1rem;
+    width: 20px !important;
+}
 .profileImage img{
     border-radius: 50%;
 }
 .headerTwo {
     border-bottom: 1px solid #30363d;
     padding: 2rem 2rem 0.8rem 21rem;
-    
 }
 .headerTwo a {
     color: #8b949e;
@@ -79,10 +92,11 @@ body {
     border-bottom: 1px solid #f9826c !important;
     -webkit-box-shadow: 0 1px 0 0 #f9826c !important;
     box-shadow: 0 1px 0 0 #f9826c !important;
-    padding-bottom: 1.1rem
+    padding-bottom: 1.1rem;
+    color: #c9d1d9
 }
 .headerTwo a:hover {
-    color: #f0f6fc;
+    color: #c9d1d9;
     border-bottom: 2px solid #8b949e !important;
     padding-bottom: 1.1rem;
 }
@@ -102,4 +116,62 @@ body {
 }
 .headerTwo span:hover {
     color: none !important
+}
+
+/* start of repositories */
+.repositories {
+    margin: 0 2rem;
+    display: flex;
+}
+.profileStory {
+    margin-right: 1.5rem;
+}
+.profileImg {
+    border-radius: 50%;
+    width: 17rem;
+    position: relative;
+    top: -1.5rem;
+    box-shadow: 0 0 0 2px rgb(240 236 252 / 10%);
+}
+
+.profileSmiley {
+    background-color: #0d1117 !important;
+    border: 1px solid #30363d;
+    border-radius: 2em;
+    padding: 8px!important;
+    position: relative;
+    top: -6rem;
+    left: 14.8rem;
+}
+.namePosition {
+    width: 15rem;
+}
+.profileName {
+    font-size: 26px;
+    font-weight: 600;
+    color: #c9d1d9;
+}
+.profileName span {
+    font-size: 20px!important;
+    position: relative;
+    top: 1.5rem;
+    right: 6.6rem;
+    color:#8b949e!important;
+}
+.profilePosition {
+    font-size: 15px;
+    color: #c9d1d9;
+    margin-top: 2rem;
+    line-height: 1.4rem;
+}
+.findRepositories {
+    margin-top: 1rem;
+}
+.findRepositories input {
+    width: 5rem;
+}
+.findRepositories input::placeholder {
+    padding-left: 0.9rem;
+    color:#8b949e;
+    font-weight: 400;
 }
