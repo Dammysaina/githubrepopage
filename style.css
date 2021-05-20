@@ -123,9 +123,6 @@ input[type=text]:focus {
     margin: 0 2rem;
     display: flex;
 }
-.profileStory {
-    margin-right: 1.5rem;
-}
 .profileImg {
     border-radius: 50%;
     width: 17rem;
@@ -140,8 +137,8 @@ input[type=text]:focus {
     border-radius: 2em;
     padding: 8px!important;
     position: relative;
-    top: -6rem;
-    left: 14.8rem;
+    top: -3.5rem;
+    left: -2.5rem;
 }
 .namePosition {
     width: 15rem;
@@ -164,17 +161,35 @@ input[type=text]:focus {
     margin-top: 2rem;
     line-height: 1.4rem;
 }
-.findRepositories {
-    margin-top: 1rem;
-}
 .findRepositories input {
-    width: 5rem;
+    width: 53rem;
 }
 .findRepositories input::placeholder {
     padding-left: 0.9rem;
     color:#8b949e;
     font-weight: 400;
 }
-.findRepositories div {
+.searchRepo  {
     border-bottom: 1px solid #30363d;
+    padding: 1rem 0;
+    width: 55rem;
+}
+.findRepositories p {
+    margin:auto;
+}
+.publicResult {
+    color: #8b949e;
+    font-size: 15px;
+    width: 12.1rem;
+}
+.publicResult span {
+    font-weight: 600;
+}
+.repoLine {
+    font-size: 20px;
+    color: #58a6ff;
+    font-weight: 600;
+}
+.repoView {
+    display: flex;
 }
